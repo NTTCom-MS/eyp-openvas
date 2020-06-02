@@ -1,11 +1,11 @@
 {
   "name": "eyp-openvas",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "eyp",
-  "summary": null,
+  "summary": "Open Vulnerability Assessment Scanner",
   "license": "Apache-2.0",
   "source": "https://github.com/NTTCom-MS/eyp-openvas",
-  "project_page": null,
+  "project_page": "https://github.com/NTTCom-MS/eyp-openvas",
   "issues_url": "https://github.com/NTTCom-MS/eyp-openvas/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0"},
@@ -16,23 +16,23 @@
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
-      "operatingsystemrelease": [ "7" ]
+      "operatingsystemrelease": [ "7", "8" ]
     },
     {
       "operatingsystem": "CentOS",
-      "operatingsystemrelease": [ "7" ]
+      "operatingsystemrelease": [ "7", "8" ]
     },
     {
       "operatingsystem": "Scientific",
-      "operatingsystemrelease": [ "7" ]
+      "operatingsystemrelease": [ "7", "8" ]
     },
     {
       "operatingsystem": "OEL",
-      "operatingsystemrelease": [ "7" ]
+      "operatingsystemrelease": [ "7", "8" ]
     },
     {
       "operatingsystem": "OracleLinux",
-      "operatingsystemrelease": [ "7" ]
+      "operatingsystemrelease": [ "7", "8" ]
     }
   ],
   "requirements": [
